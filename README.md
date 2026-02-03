@@ -32,5 +32,6 @@
 ## 🔗 Other resources
 
 - `w2_sample.png` is publicly available data.
+- See also: https://github.com/tdiprima/coverburn
 
 <br>
