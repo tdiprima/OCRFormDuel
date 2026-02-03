@@ -31,8 +31,9 @@
 
 ## 🔗 Other resources
 
-GitHub notebook: https://github.com/mfletcher2021/blogcode/blob/main/OCR_document_readings.ipynb. 📂
-
+- GitHub notebook: https://github.com/mfletcher2021/blogcode/blob/main/OCR_document_readings.ipynb. 📂  
 by Michael Fletcher
+
+- `w2_sample.png` is publicly available data.
 
 <br>
