@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple baseline OCR using pytesseract on a W-2 form image.
-Outputs flat text blob, ignoring layout/tables. For comparison with layout-aware tools.
-Assumes 'w2_sample.png' image file is in the same directory.
+pytesseract output (Classic OCR)
 """
 
 import numpy as np

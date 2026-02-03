@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Performs OCR on a W-2 form image using pytesseract with and without OpenCV preprocessing (grayscale + thresholding).
-Compares raw and processed outputs to demonstrate improvements and limitations on structured documents.
-Assumes 'w2_sample.png' image file is in the same directory.
+Classic Approach: pytesseract + OpenCV
+This version treats the entire image as one big blob of text.
+No understanding of layout, columns, or text zones.
 """
 
 import cv2

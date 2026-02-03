@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple layout-aware OCR using PaddleOCR on a W-2 form.
-Detects and prints text blocks separately, preserving structure better than classic OCR.
-Assumes 'w2_sample.png' image file is in the same directory.
+PaddleOCR Output (Layout-Aware OCR)
 """
 
 from paddleocr import PaddleOCR

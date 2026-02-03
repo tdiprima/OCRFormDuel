@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Layout-aware OCR on a W-2 form using PaddleOCR: detects text regions, extracts text, and visualizes bounding boxes.
-Superior for structured docs like forms with tables/boxes. Includes optional visualization.
-Assumes 'w2_sample.png' image file is in the same directory.
+Smarter Approach: PaddleOCR (Layout-Aware)
+Unlike Tesseract, PaddleOCR detects each text region first (like boxes or fields) and
+then applies OCR — making it layout-aware. It's built for messy, real-world docs.
 """
 
 import matplotlib.pyplot as plt
