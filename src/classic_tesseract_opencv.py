@@ -20,10 +20,10 @@ print("=== Raw pytesseract output ===")
 print(raw_text)
 
 # Preprocessing: grayscale + thresholding
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-_, thresh = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
+# gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+# _, thresh = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
 
 # Run OCR again on thresholded image
-processed_text = pytesseract.image_to_string(thresh)
-print("\n=== After thresholding (OpenCV) ===")
-print(processed_text)
+# processed_text = pytesseract.image_to_string(thresh)
+# print("\n=== After thresholding (OpenCV) ===")
+# print(processed_text)
