@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
 PaddleOCR Output (Layout-Aware OCR)
+export PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
 """
 
 from paddleocr import PaddleOCR
 
-ocr = PaddleOCR(use_angle_cls=True, lang="en")
-result = ocr.ocr("w2_sample.png", cls=True)
+ocr = PaddleOCR(use_textline_orientation=True, lang="en")
+result = ocr.predict("w2_sample.png")
 
 print("=== Simple PaddleOCR output ===")
-for line in result[0]:
-    print(line[1][0])
+for text in result[0]["rec_texts"]:
+    print(text)
